@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.objis.spring.domaine.Employe;
 
-public interface EmployeDao extends JpaRepository<Employe, Integer>{
+public interface IEmployeDao extends JpaRepository<Employe, Integer>{
 	
 	public List<Employe> findByEmail(String email);
 
